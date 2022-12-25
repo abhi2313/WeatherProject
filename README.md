@@ -14,5 +14,6 @@ http://127.0.0.1:8000/api/weather/      -> for crud operations using django_Rest
 
 app/views/crud.py     contains crud operations using serializer.
 
-app/views/home.py      homepage where weather data of cities are shown.
+app/views/home.py      where weather data of cities are fetched using openweatherAPI
+
 
