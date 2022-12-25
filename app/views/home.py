@@ -17,7 +17,7 @@ def index(request):
     cities = ["Delhi", "Mumbai", "Kolkata", "Bangalore", "Hyderabad"]
     for city_name in cities:
 
-        # the url for current weather, takes city_name and API_KEY
+        
         url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&units=metric&appid={API_KEY}'
         list_of_data = requests.get(url.format(city_name)).json()
 
